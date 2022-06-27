@@ -660,7 +660,7 @@ export default {
         savedTheme: null,
   
         // flag to toggle the preloader
-        isPreloading: true,
+        isPreloading: false,
   
         // toast notifications array
         notifications: [],
