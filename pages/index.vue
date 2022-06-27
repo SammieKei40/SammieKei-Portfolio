@@ -229,7 +229,7 @@
                   </p>
                   <div class="btns-container">
                     <a href="#contact" class="btn btn-primary">Hire Me</a>
-                    <a download href="~/assets/images/Resume.pdf" class="btn btn-outline-light">Download CV</a>
+                    <a download=""  href="/Resume.pdf" class="btn btn-outline-light">Download CV</a>
                   </div>
                 </div>
               </div>
