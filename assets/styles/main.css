@@ -3066,8 +3066,8 @@ html[dir=rtl] .notifications-container .notify-leave-active {
           mask-repeat: no-repeat;
   -webkit-mask-position: center;
           mask-position: center;
-  -webkit-mask-size: contain;
-          mask-size: contain;
+  /* -webkit-mask-size: contain;
+          mask-size: contain; */
 }
 .hero-section .hero-img .layer:first-of-type:before {
   content: "";
@@ -3639,8 +3639,8 @@ html[dir=rtl] .statistics-section .section-content .statistics-items a > .fa {
           mask-repeat: no-repeat;
   -webkit-mask-position: center;
           mask-position: center;
-  -webkit-mask-size: contain;
-          mask-size: contain;
+  /* -webkit-mask-size: contain;
+          mask-size: contain; */
 }
 .about-section .section-content .about-img .layer:first-of-type:before {
   content: "";

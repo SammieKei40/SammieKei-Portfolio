@@ -746,6 +746,10 @@ export default {
             {
               imgUrl: require('../assets/images/skills/node.png'),
               title: 'Node'
+            },
+            {
+              imgUrl: require('../assets/images/skills/typescript.png'),
+              title: 'Node'
             }
           ],
 
@@ -816,6 +820,13 @@ export default {
             date: '2021',
             companyName: { en: 'FlowNFuse'},
             jobTitle: { en: 'Frontend Developer Lead' },
+            desc: {
+              en: 'Collaborate with creative and development teams on the execution of web and mobile application.'
+            }
+          }, {
+            date: '2022',
+            companyName: { en: 'Uridium Technologies'},
+            jobTitle: { en: 'Frontend Developer (VUE)' },
             desc: {
               en: 'Collaborate with creative and development teams on the execution of web and mobile application.'
             }
