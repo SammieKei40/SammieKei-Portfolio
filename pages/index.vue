@@ -824,7 +824,7 @@ export default {
               en: 'Collaborate with creative and development teams on the execution of web and mobile application.'
             }
           }, {
-            date: '2022',
+            date: '2021',
             companyName: { en: 'Uridium Technologies'},
             jobTitle: { en: 'Frontend Developer (VUE)' },
             desc: {
