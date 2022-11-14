@@ -229,7 +229,7 @@
                   </p>
                   <div class="btns-container">
                     <a href="#contact" class="btn btn-primary">Hire Me</a>
-                    <a download=""  href="/" class="btn btn-outline-light">Download CV</a>
+                    <a download=""  href="/Resume.pdf" class="btn btn-outline-light">Download CV</a>
                   </div>
                 </div>
               </div>
@@ -824,7 +824,7 @@ export default {
               en: 'Collaborate with creative and development teams on the execution of web and mobile application.'
             }
           }, {
-            date: '2021',
+            date: '2022',
             companyName: { en: 'Uridium Technologies'},
             jobTitle: { en: 'Frontend Developer (VUE)' },
             desc: {
