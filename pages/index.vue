@@ -448,7 +448,7 @@
                 <div class="text-box-inline">
                   <span class="subtitle">contact</span>
                   <h2>
-                    Have You Any Project?
+                    Do You Have Any Project?
                     <br>
                     Please Drop a Message
                   </h2>
