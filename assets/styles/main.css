@@ -3058,29 +3058,30 @@ html[dir=rtl] .notifications-container .notify-leave-active {
     right: 50%;
   }
 }
-.hero-section .hero-img .layer:first-of-type {
+/* .hero-section .hero-img .layer:first-of-type {
   height: 100%;
-  -webkit-mask-image: url("~/assets/images/sammie.png");
-          mask-image: url("~/assets/images/sammie.png");
+  -webkit-mask-image: url("~/assets/images/sammie.jpg");
+          mask-image: url("~/assets/images/sammie.jpg");
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
   -webkit-mask-position: center;
           mask-position: center;
-  /* -webkit-mask-size: contain;
-          mask-size: contain; */
-}
+  -webkit-mask-size: contain;
+          mask-size: contain;
+
+} */
 .hero-section .hero-img .layer:first-of-type:before {
   content: "";
   position: absolute;
 }
 @media (min-width: 992px) {
-  .hero-section .hero-img .layer:first-of-type:before {
+  /* .hero-section .hero-img .layer:first-of-type:before {
     z-index: 1;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-  }
+  } */
   .light_theme .hero-section .hero-img .layer:first-of-type:before {
     background: -webkit-gradient(linear, left top, right top, from(var(--primary-color)), to(var(--secondary-color)));
     background: linear-gradient(to right, var(--primary-color) 0%, var(--secondary-color) 100%);
@@ -3130,7 +3131,7 @@ html[dir=rtl] .notifications-container .notify-leave-active {
   }
 }
 .hero-section .hero-img .layer:last-of-type {
-  height: 50%;
+  height: 80%;
   overflow: hidden;
 }
 @media (max-width: 991px) {
@@ -3631,33 +3632,33 @@ html[dir=rtl] .statistics-section .section-content .statistics-items a > .fa {
   left: 0;
   width: 100%;
 }
-.about-section .section-content .about-img .layer:first-of-type {
-  height: 100%;
-  -webkit-mask-image: url("~/assets/images/sam1.png");
-          mask-image: url("~/assets/images/sam1.png");
-  -webkit-mask-repeat: no-repeat;
-          mask-repeat: no-repeat;
-  -webkit-mask-position: center;
-          mask-position: center;
-  /* -webkit-mask-size: contain;
-          mask-size: contain; */
-}
-.about-section .section-content .about-img .layer:first-of-type:before {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  bottom: 0;
-  height: 80%;
-  width: 80%;
-  -webkit-mask-image: url("~/assets/images/sam1.png");
-          mask-image: url("~/assets/images/sam1.png");
+/* .about-section .section-content .about-img .layer:first-of-type {
+  height: 50%;
+  -webkit-mask-image: url("~/assets/images/sam1.jpg");
+          mask-image: url("~/assets/images/sam1.jpg");
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
   -webkit-mask-position: center;
           mask-position: center;
   -webkit-mask-size: contain;
           mask-size: contain;
-}
+} */
+/* .about-section .section-content .about-img .layer:first-of-type:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  height: 80%;
+  width: 80%;
+  -webkit-mask-image: url("~/assets/images/sam1.jpg");
+          mask-image: url("~/assets/images/sam1.jpg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+  -webkit-mask-size: contain;
+          mask-size: contain;
+} */
 html[dir=ltr] .about-section .section-content .about-img .layer:first-of-type:before {
   left: 50%;
 }
@@ -3684,22 +3685,23 @@ html[dir=rtl] .about-section .section-content .about-img .layer:first-of-type:be
           filter: drop-shadow(2px 4px 6px black);
 }
 .about-section .section-content .about-img .layer:last-of-type {
-  height: 50%;
+  height: 80%;
   overflow: hidden;
 }
-.about-section .section-content .about-img .layer:last-of-type img {
+/* .about-section .section-content .about-img .layer:last-of-type img {
   height: 200%;
-}
+} */
 .about-section .section-content .about-img .layer img {
   position: relative;
   z-index: 2;
   display: block;
-  max-width: 100%;
+  width: 80%;
   margin: auto;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  border-radius: 50%;
 }
 .about-section .section-content .about-text p {
   margin: 0;

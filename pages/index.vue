@@ -116,8 +116,8 @@
         <!-- start of hero section -->
         <div id="hero" class="hero-section" ref="heroSection" data-paneffect="true">
           <div class="hero-img">
-            <div class="layer" v-clone>
-              <img src="../assets/images/sammie.png" alt="User Name">
+            <div class="layer " v-clone>
+              <img src="../assets/images/sammie.jpg" alt="User Name" style="border-radius:50%">
             </div>
           </div>
 
@@ -211,7 +211,7 @@
               <!-- about image -->
               <div class="about-img col-lg-6">
                 <div class="layer" v-clone>
-                  <img src="~/assets/images/sam1.png" alt="User Name">
+                  <img src="~/assets/images/sam1.jpg" alt="User Name">
                 </div>
               </div>
 
@@ -939,7 +939,7 @@ export default {
           },
           {
             id: 9,
-            url: 'https://roqqu.netlify.app/',
+            url: 'https://wytpro.vercel.app/',
             imgUrl: require('../assets/images/portfolio/portfolio9.png'),
             title: { en: 'A Trading Website'},
             date: { en: 'April 2022'},
@@ -1006,7 +1006,7 @@ export default {
         // list of testimonials items to loop through it
         testimonialsItems: [
           {
-            imgUrl: require('../assets/images/sammie.png'),
+            imgUrl: require('../assets/images/sammie.jpg'),
             quoteContent: {
               en: 'Sammie simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Sammie to anyone.',
             },
@@ -1574,7 +1574,7 @@ export default {
   
       // get the total years of experience
       experienceYears() {
-        return new Date(new Date() - new Date(String(this.careerStartDate))).getFullYear() - 1969;
+        return new Date(new Date() - new Date(String(this.careerStartDate))).getFullYear() - 1971;
       },
   
       // split experience items into chunks of 3 items
